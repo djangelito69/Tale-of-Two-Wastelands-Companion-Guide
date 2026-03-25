@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_fnv">
+
+
+    <TextView
+        android:id="@+id/txtMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menú"
+        android:textColor="#CC9900"
+        android:textSize="25sp"
+        android:fontFamily="@font/overseer_italic"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_margin="16dp"/>
+
+
+    <ImageView
+        android:id="@+id/imgTitulo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/title_fnv"
+        app:layout_constraintTop_toBottomOf="@id/txtMenu"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"/>
+
+
+    <TextView
+        android:id="@+id/txtVeronica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Veronica"
+        android:textColor="#CC9900"
+        android:textSize="18sp"
+        android:fontFamily="@font/overseer_italic"
+        app:layout_constraintTop_toBottomOf="@id/imgTitulo"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textAlignment="center"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"/>
+
+
+    <ImageButton
+        android:id="@+id/btnVeronica"
+        android:layout_width="100dp"
+        android:layout_height="140dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        android:src="@drawable/veronica"
+        app:layout_constraintStart_toStartOf="@id/txtVeronica"
+        app:layout_constraintTop_toBottomOf="@id/txtVeronica" />
+
+    <TextView
+        android:id="@+id/txtBoone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Boone"
+        android:textColor="#CC9900"
+        android:textSize="18sp"
+        android:fontFamily="@font/overseer_italic"
+        app:layout_constraintTop_toBottomOf="@id/imgTitulo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"/>
+
+    <ImageButton
+        android:id="@+id/btnBoone"
+        android:layout_width="100dp"
+        android:layout_height="140dp"
+        android:src="@drawable/boone"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        app:layout_constraintTop_toBottomOf="@id/txtBoone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- ED-E -->
+    <TextView
+        android:id="@+id/txtEDE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ED-E"
+        android:textColor="#CC9900"
+        android:textSize="18sp"
+        android:fontFamily="@font/overseer_italic"
+        app:layout_constraintTop_toBottomOf="@id/imgTitulo"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="20dp"/>
+
+    <ImageButton
+        android:id="@+id/btnEDE"
+        android:layout_width="100dp"
+        android:layout_height="140dp"
+        android:src="@drawable/ede"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        app:layout_constraintTop_toBottomOf="@id/txtEDE"
+        app:layout_constraintEnd_toEndOf="@id/txtEDE"/>
+
+    <!-- ===== FILA 2 ===== -->
+
+    <!-- Raul -->
+    <TextView
+        android:id="@+id/txtRaul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Raul"
+        android:textColor="#CC9900"
+        android:textSize="18sp"
+        android:fontFamily="@font/overseer_italic"
+        app:layout_constraintTop_toBottomOf="@id/btnVeronica"
+        app:layout_constraintStart_toStartOf="@id/btnVeronica"
+        android:layout_marginTop="20dp"/>
+
+    <ImageButton
+        android:id="@+id/btnRaul"
+        android:layout_width="100dp"
+        android:layout_height="140dp"
+        android:src="@drawable/raul"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        app:layout_constraintTop_toBottomOf="@id/txtRaul"
+        app:layout_constraintStart_toStartOf="@id/txtRaul"/>
+
+    <!-- Cass -->
+    <TextView
+        android:id="@+id/txtCass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cass"
+        android:textColor="#CC9900"
+        android:textSize="18sp"
+        android:fontFamily="@font/overseer_italic"
+        app:layout_constraintTop_toBottomOf="@id/btnBoone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"/>
+
+    <ImageButton
+        android:id="@+id/btnCass"
+        android:layout_width="100dp"
+        android:layout_height="140dp"
+        android:src="@drawable/cass"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        app:layout_constraintTop_toBottomOf="@id/txtCass"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- Lily -->
+    <TextView
+        android:id="@+id/txtLily"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lily"
+        android:textColor="#CC9900"
+        android:textSize="18sp"
+        android:fontFamily="@font/overseer_italic"
+        app:layout_constraintTop_toBottomOf="@id/btnEDE"
+        app:layout_constraintEnd_toEndOf="@id/btnEDE"
+        android:layout_marginTop="20dp"/>
+
+    <ImageButton
+        android:id="@+id/btnLily"
+        android:layout_width="100dp"
+        android:layout_height="140dp"
+        android:src="@drawable/lily"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        app:layout_constraintTop_toBottomOf="@id/txtLily"
+        app:layout_constraintEnd_toEndOf="@id/txtLily"/>
+
+    <!-- ===== FILA 3 ===== -->
+
+    <!-- Rex -->
+    <TextView
+        android:id="@+id/txtRex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rex"
+        android:textColor="#CC9900"
+        android:textSize="18sp"
+        android:fontFamily="@font/overseer_italic"
+        app:layout_constraintTop_toBottomOf="@id/btnRaul"
+        app:layout_constraintStart_toStartOf="@id/btnRaul"
+        android:layout_marginTop="20dp"/>
+
+    <ImageButton
+        android:id="@+id/btnRex"
+        android:layout_width="100dp"
+        android:layout_height="140dp"
+        android:src="@drawable/rex"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        app:layout_constraintTop_toBottomOf="@id/txtRex"
+        app:layout_constraintStart_toStartOf="@id/txtRex"/>
+
+    <!-- Arcade -->
+    <TextView
+        android:id="@+id/txtArcade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Arcade"
+        android:textColor="#CC9900"
+        android:textSize="18sp"
+        android:fontFamily="@font/overseer_italic"
+        app:layout_constraintTop_toBottomOf="@id/btnCass"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"/>
+
+    <ImageButton
+        android:id="@+id/btnArcade"
+        android:layout_width="100dp"
+        android:layout_height="140dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        android:src="@drawable/arcade"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txtArcade" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

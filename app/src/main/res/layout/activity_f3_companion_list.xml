@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_f3">
+
+
+    <TextView
+        android:id="@+id/txtMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menú"
+        android:textColor="#50AF4F"
+        android:textSize="25sp"
+        android:fontFamily="@font/overseer_italic"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_margin="16dp"/>
+
+
+    <ImageView
+        android:id="@+id/imgTitulo"
+        android:layout_width="432dp"
+        android:layout_height="101dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/title_f3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txtMenu" />
+
+
+    <TextView
+        android:id="@+id/txtButch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Butch"
+        android:textColor="#50AF4F"
+        android:textSize="18sp"
+        android:fontFamily="@font/overseer_italic"
+        app:layout_constraintTop_toBottomOf="@id/imgTitulo"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textAlignment="center"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"/>
+
+
+    <ImageButton
+        android:id="@+id/btnButch"
+        android:layout_width="100dp"
+        android:layout_height="140dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        android:src="@drawable/butch"
+        app:layout_constraintStart_toStartOf="@id/txtButch"
+        app:layout_constraintTop_toBottomOf="@id/txtButch" />
+
+    <TextView
+        android:id="@+id/txtFawkes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fawkes"
+        android:textColor="#50AF4F"
+        android:textSize="18sp"
+        android:fontFamily="@font/overseer_italic"
+        app:layout_constraintTop_toBottomOf="@id/imgTitulo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"/>
+
+    <ImageButton
+        android:id="@+id/btnFawkes"
+        android:layout_width="100dp"
+        android:layout_height="140dp"
+        android:src="@drawable/fawkes"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        app:layout_constraintTop_toBottomOf="@id/txtFawkes"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/txtPaladinCross"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Paladin Cross"
+        android:textColor="#50AF4F"
+        android:textSize="18sp"
+        android:fontFamily="@font/overseer_italic"
+        app:layout_constraintTop_toBottomOf="@id/imgTitulo"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="20dp"/>
+
+    <ImageButton
+        android:id="@+id/btnPaladinCross"
+        android:layout_width="100dp"
+        android:layout_height="140dp"
+        android:src="@drawable/cross"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        app:layout_constraintTop_toBottomOf="@id/txtPaladinCross"
+        app:layout_constraintEnd_toEndOf="@id/txtPaladinCross"/>
+
+    <!-- ===== FILA 2 ===== -->
+
+    <!-- Raul -->
+    <TextView
+        android:id="@+id/txtSargentRL3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="S. RL-3"
+        android:textColor="#50AF4F"
+        android:textSize="18sp"
+        android:fontFamily="@font/overseer_italic"
+        app:layout_constraintTop_toBottomOf="@id/btnButch"
+        app:layout_constraintStart_toStartOf="@id/btnButch"
+        android:layout_marginTop="20dp"/>
+
+    <ImageButton
+        android:id="@+id/btnSargentRL3"
+        android:layout_width="100dp"
+        android:layout_height="140dp"
+        android:src="@drawable/rl3"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        app:layout_constraintTop_toBottomOf="@id/txtSargentRL3"
+        app:layout_constraintStart_toStartOf="@id/txtSargentRL3"/>
+
+    <!-- Cass -->
+    <TextView
+        android:id="@+id/txtClover"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clover"
+        android:textColor="#50AF4F"
+        android:textSize="18sp"
+        android:fontFamily="@font/overseer_italic"
+        app:layout_constraintTop_toBottomOf="@id/btnFawkes"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"/>
+
+    <ImageButton
+        android:id="@+id/btnClover"
+        android:layout_width="100dp"
+        android:layout_height="140dp"
+        android:src="@drawable/clover"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        app:layout_constraintTop_toBottomOf="@id/txtClover"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- Lily -->
+    <TextView
+        android:id="@+id/txtJericho"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jericho"
+        android:textColor="#50AF4F"
+        android:textSize="18sp"
+        android:fontFamily="@font/overseer_italic"
+        app:layout_constraintTop_toBottomOf="@id/btnPaladinCross"
+        app:layout_constraintEnd_toEndOf="@id/btnPaladinCross"
+        android:layout_marginTop="20dp"/>
+
+    <ImageButton
+        android:id="@+id/btnJericho"
+        android:layout_width="100dp"
+        android:layout_height="140dp"
+        android:src="@drawable/jericho"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        app:layout_constraintTop_toBottomOf="@id/txtJericho"
+        app:layout_constraintEnd_toEndOf="@id/txtJericho"/>
+
+    <!-- ===== FILA 3 ===== -->
+
+    <!-- Rex -->
+    <TextView
+        android:id="@+id/txtDogmeat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dogmeat"
+        android:textColor="#50AF4F"
+        android:textSize="18sp"
+        android:fontFamily="@font/overseer_italic"
+        app:layout_constraintTop_toBottomOf="@id/btnSargentRL3"
+        app:layout_constraintStart_toStartOf="@id/btnSargentRL3"
+        android:layout_marginTop="20dp"/>
+
+    <ImageButton
+        android:id="@+id/btnDogmeat"
+        android:layout_width="100dp"
+        android:layout_height="140dp"
+        android:src="@drawable/dogmeat"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        app:layout_constraintTop_toBottomOf="@id/txtDogmeat"
+        app:layout_constraintStart_toStartOf="@id/txtDogmeat"/>
+
+    <!-- Arcade -->
+    <TextView
+        android:id="@+id/txtCharon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Charon"
+        android:textColor="#50AF4F"
+        android:textSize="18sp"
+        android:fontFamily="@font/overseer_italic"
+        app:layout_constraintTop_toBottomOf="@id/btnClover"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"/>
+
+    <ImageButton
+        android:id="@+id/btnCharon"
+        android:layout_width="100dp"
+        android:layout_height="140dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        android:src="@drawable/charon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txtCharon" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
