@@ -2,14 +2,14 @@
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/main"
+    android:id="@+id/mainfnv"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background_fnv">
 
 
-    <TextView
-        android:id="@+id/txtMenu"
+    <Button
+        android:id="@+id/btnMenuPrincipal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Menú"
@@ -23,10 +23,10 @@
 
     <ImageView
         android:id="@+id/imgTitulo"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/title_fnv"
-        app:layout_constraintTop_toBottomOf="@id/txtMenu"
+        app:layout_constraintTop_toBottomOf="@id/btnMenuPrincipal"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="20dp"/>

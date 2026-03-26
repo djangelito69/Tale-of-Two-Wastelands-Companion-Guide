@@ -3,7 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/veronica"
+    android:id="@+id/cass"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background_fnv">
@@ -22,10 +22,10 @@
 
 
     <TextView
-        android:id="@+id/txtVeronica"
+        android:id="@+id/txtCass"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Veronica"
+        android:text="Cass"
         android:textColor="#CC9900"
         android:textSize="50sp"
         android:fontFamily="@font/overseer_italic"
@@ -36,30 +36,30 @@
         android:layout_marginTop="20dp"/>
 
     <ImageView
-        android:id="@+id/imgVeronica"
+        android:id="@+id/imgCass"
         android:layout_width="140dp"
         android:layout_height="241dp"
         android:layout_marginTop="10dp"
         android:scaleType="fitCenter"
-        android:src="@drawable/veronica"
+        android:src="@drawable/cass"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/txtVeronica" />
+        app:layout_constraintTop_toBottomOf="@id/txtCass" />
 
 
     <TextView
-        android:id="@+id/txtVeronicaInfo"
+        android:id="@+id/txtCassInfo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:fontFamily="@font/overseer_italic"
-        android:text="Veronica es una escriba oficial del capítulo de Mojave de la Hermandad del Acero, que actualmente reside en el Puesto de Comercio 188 en el Yermo de Mojave en 2281."
+        android:text="Rose of Sharon Cassidy (abreviado Cass) es una comerciante de agua y la dueña de las Caravanas Cassidy en 2281, además de una de los posibles compañeros en Fallout: New Vegas."
         android:textAlignment="center"
         android:textColor="#CC9900"
         android:textSize="25sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/imgVeronica" />
+        app:layout_constraintTop_toBottomOf="@id/imgCass" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

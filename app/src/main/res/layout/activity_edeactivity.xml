@@ -3,7 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/veronica"
+    android:id="@+id/ede"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background_fnv">
@@ -22,10 +22,10 @@
 
 
     <TextView
-        android:id="@+id/txtVeronica"
+        android:id="@+id/txtEDE"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Veronica"
+        android:text="ED-E"
         android:textColor="#CC9900"
         android:textSize="50sp"
         android:fontFamily="@font/overseer_italic"
@@ -36,30 +36,30 @@
         android:layout_marginTop="20dp"/>
 
     <ImageView
-        android:id="@+id/imgVeronica"
+        android:id="@+id/imgEDE"
         android:layout_width="140dp"
         android:layout_height="241dp"
         android:layout_marginTop="10dp"
         android:scaleType="fitCenter"
-        android:src="@drawable/veronica"
+        android:src="@drawable/ede"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/txtVeronica" />
+        app:layout_constraintTop_toBottomOf="@id/txtEDE" />
 
 
     <TextView
-        android:id="@+id/txtVeronicaInfo"
+        android:id="@+id/txtEDEInfo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:fontFamily="@font/overseer_italic"
-        android:text="Veronica es una escriba oficial del capítulo de Mojave de la Hermandad del Acero, que actualmente reside en el Puesto de Comercio 188 en el Yermo de Mojave en 2281."
+        android:text="El sujeto E de ojobot Duraframe, también conocido como ED-E, es un ojobot Duraframe y posible compañero del Mensajero en el año 2281. Se encuentra estropeado y está en la residencia Nash en Primm."
         android:textAlignment="center"
         android:textColor="#CC9900"
         android:textSize="25sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/imgVeronica" />
+        app:layout_constraintTop_toBottomOf="@id/imgEDE" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

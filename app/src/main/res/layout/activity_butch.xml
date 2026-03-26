@@ -2,11 +2,10 @@
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/veronica"
+    android:id="@+id/butch"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background_fnv">
+    android:background="@drawable/background_f3">
 
     <Button
         android:id="@+id/btnCompanionList"
@@ -22,11 +21,11 @@
 
 
     <TextView
-        android:id="@+id/txtVeronica"
+        android:id="@+id/txtButch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Veronica"
-        android:textColor="#CC9900"
+        android:text="Butch"
+        android:textColor="#50AF4F"
         android:textSize="50sp"
         android:fontFamily="@font/overseer_italic"
         app:layout_constraintTop_toBottomOf="@id/btnCompanionList"
@@ -36,30 +35,30 @@
         android:layout_marginTop="20dp"/>
 
     <ImageView
-        android:id="@+id/imgVeronica"
+        android:id="@+id/imgButch"
         android:layout_width="140dp"
         android:layout_height="241dp"
         android:layout_marginTop="10dp"
         android:scaleType="fitCenter"
-        android:src="@drawable/veronica"
+        android:src="@drawable/butch"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/txtVeronica" />
+        app:layout_constraintTop_toBottomOf="@id/txtButch" />
 
 
     <TextView
-        android:id="@+id/txtVeronicaInfo"
+        android:id="@+id/txtButchInfo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:fontFamily="@font/overseer_italic"
-        android:text="Veronica es una escriba oficial del capítulo de Mojave de la Hermandad del Acero, que actualmente reside en el Puesto de Comercio 188 en el Yermo de Mojave en 2281."
+        android:text="Butch DeLoria es un residente del Refugio 101 en el juego Fallout 3, el líder de las Serpientes de túnel y un posible compañero del Trotamundos Solitario en 2277."
         android:textAlignment="center"
-        android:textColor="#CC9900"
+        android:textColor="#50AF4F"
         android:textSize="25sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/imgVeronica" />
+        app:layout_constraintTop_toBottomOf="@id/imgButch" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

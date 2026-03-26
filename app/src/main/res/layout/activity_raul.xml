@@ -3,7 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/veronica"
+    android:id="@+id/raul"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background_fnv">
@@ -22,10 +22,10 @@
 
 
     <TextView
-        android:id="@+id/txtVeronica"
+        android:id="@+id/txtRaul"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Veronica"
+        android:text="Raul"
         android:textColor="#CC9900"
         android:textSize="50sp"
         android:fontFamily="@font/overseer_italic"
@@ -36,30 +36,30 @@
         android:layout_marginTop="20dp"/>
 
     <ImageView
-        android:id="@+id/imgVeronica"
+        android:id="@+id/imgRaul"
         android:layout_width="140dp"
         android:layout_height="241dp"
         android:layout_marginTop="10dp"
         android:scaleType="fitCenter"
-        android:src="@drawable/veronica"
+        android:src="@drawable/raul"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/txtVeronica" />
+        app:layout_constraintTop_toBottomOf="@id/txtRaul" />
 
 
     <TextView
-        android:id="@+id/txtVeronicaInfo"
+        android:id="@+id/txtRaulInfo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:fontFamily="@font/overseer_italic"
-        android:text="Veronica es una escriba oficial del capítulo de Mojave de la Hermandad del Acero, que actualmente reside en el Puesto de Comercio 188 en el Yermo de Mojave en 2281."
+        android:text="Raúl Alfonso Tejada, nacido en 2047, es un mecánico necrófago de nacionalidad mexicana que esta como rehén en Black Mountain para 2281. Puede ser un posible acompañante del Mensajero."
         android:textAlignment="center"
         android:textColor="#CC9900"
         android:textSize="25sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/imgVeronica" />
+        app:layout_constraintTop_toBottomOf="@id/imgRaul" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

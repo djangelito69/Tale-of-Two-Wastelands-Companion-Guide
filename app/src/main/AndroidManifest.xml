@@ -12,13 +12,58 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TTWCompanionGuideApp">
         <activity
-            android:name=".firstapp.VeronicaActivity"
+            android:name=".firstapp.fallout3.f3companions.CharonActivity"
             android:exported="false" />
         <activity
-            android:name=".firstapp.F3CompanionListActivity"
+            android:name=".firstapp.fallout3.f3companions.DogmeatActivity"
             android:exported="false" />
         <activity
-            android:name=".firstapp.FNVCompanionListActivity"
+            android:name=".firstapp.fallout3.f3companions.JerichoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".firstapp.fallout3.f3companions.CloverActivity"
+            android:exported="false" />
+        <activity
+            android:name=".firstapp.fallout3.f3companions.SRL3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".firstapp.fallout3.f3companions.PaladinCrossActivity"
+            android:exported="false" />
+        <activity
+            android:name=".firstapp.fallout3.f3companions.FawkesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".firstapp.fallout3.f3companions.ButchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".firstapp.falloutnv.fnvcompanions.ArcadeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".firstapp.falloutnv.fnvcompanions.RexActivity"
+            android:exported="false" />
+        <activity
+            android:name=".firstapp.falloutnv.fnvcompanions.LilyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".firstapp.falloutnv.fnvcompanions.CassActivity"
+            android:exported="false" />
+        <activity
+            android:name=".firstapp.falloutnv.fnvcompanions.RaulActivity"
+            android:exported="false" />
+        <activity
+            android:name=".firstapp.falloutnv.fnvcompanions.EDEActivity"
+            android:exported="false" />
+        <activity
+            android:name=".firstapp.falloutnv.fnvcompanions.BooneActivity"
+            android:exported="false" />
+        <activity
+            android:name=".firstapp.falloutnv.fnvcompanions.VeronicaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".firstapp.fallout3.F3CompanionListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".firstapp.falloutnv.FNVCompanionListActivity"
             android:exported="false" />
         <activity
             android:name=".firstapp.FirstAppActivity"

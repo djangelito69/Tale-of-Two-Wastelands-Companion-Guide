@@ -1,40 +1,31 @@
-package com.example.ttwcompanionguideapp.firstapp
+package com.example.ttwcompanionguideapp.firstapp.fallout3.f3companions
 
 import android.content.Intent
 import android.os.Bundle
-import android.widget.ImageButton
+import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.example.ttwcompanionguideapp.R
 import com.example.ttwcompanionguideapp.firstapp.fallout3.F3CompanionListActivity
-import com.example.ttwcompanionguideapp.firstapp.falloutnv.FNVCompanionListActivity
 
-class FirstAppActivity : AppCompatActivity() {
+class DogmeatActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.activity_first_app)
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
+        setContentView(R.layout.activity_dogmeat)
+        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.dogmeat)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
 
-        val btnFalloutNV = findViewById<ImageButton>(R.id.btnFalloutNV)
+        val btnCompanionList = findViewById<Button>(R.id.btnCompanionList)
 
-        btnFalloutNV.setOnClickListener {
-            val intent = Intent(this, FNVCompanionListActivity::class.java)
-            startActivity(intent)
-        }
-
-        val btnFallout3 = findViewById<ImageButton>(R.id.btnFallout3)
-
-        btnFallout3.setOnClickListener {
+        btnCompanionList.setOnClickListener {
             val intent = Intent(this, F3CompanionListActivity::class.java)
             startActivity(intent)
         }
-
     }
 }
