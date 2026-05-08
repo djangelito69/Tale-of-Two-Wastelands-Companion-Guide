@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TTWCompanionGuideApp">
         <activity
+            android:name=".firstapp.Register"
+            android:exported="false" />
+        <activity
+            android:name=".firstapp.FirstAppActivity"
+            android:exported="false" />
+        <activity
             android:name=".firstapp.fallout3.f3companions.CharonActivity"
             android:exported="false" />
         <activity
@@ -66,13 +72,15 @@
             android:name=".firstapp.falloutnv.FNVCompanionListActivity"
             android:exported="false" />
         <activity
-            android:name=".firstapp.FirstAppActivity"
+            android:name=".firstapp.Login"
             android:exported="true">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
     </application>
 

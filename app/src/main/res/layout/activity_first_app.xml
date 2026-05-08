@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -60,5 +61,41 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/btnFallout3"
         app:layout_constraintTop_toBottomOf="@id/titulo" />
+
+    <Button
+        android:id="@+id/btnCerrarSesion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="10dp"
+
+        android:text="Cerrar sesión"
+
+        android:textAllCaps="false"
+        android:textSize="15sp"
+
+        android:fontFamily="@font/overseer_italic"
+
+        android:textColor="#FFFFFF"
+
+        android:backgroundTint="@color/cardview_dark_background"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/txtSaludo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/overseer_italic"
+        android:text="Hola"
+        android:textColor="@color/white"
+        android:textSize="44sp"
+        app:layout_constraintTop_toBottomOf="@id/btnCerrarSesion"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

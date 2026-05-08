@@ -2,7 +2,9 @@ package com.example.ttwcompanionguideapp.firstapp
 
 import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import android.widget.ImageButton
+import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -34,6 +36,51 @@ class FirstAppActivity : AppCompatActivity() {
         btnFallout3.setOnClickListener {
             val intent = Intent(this, F3CompanionListActivity::class.java)
             startActivity(intent)
+        }
+
+        val txtSaludo =
+            findViewById<TextView>(R.id.txtSaludo)
+
+        val sharedPref =
+            getSharedPreferences(
+                "Sesion",
+                MODE_PRIVATE
+            )
+
+        val username =
+            sharedPref.getString(
+                "username",
+                "Usuario"
+            )
+
+        txtSaludo.text =
+            "Hola, $username"
+
+        val btnCerrarSesion =
+            findViewById<Button>(R.id.btnCerrarSesion)
+
+        btnCerrarSesion.setOnClickListener {
+
+            val sharedPref =
+                getSharedPreferences(
+                    "Sesion",
+                    MODE_PRIVATE
+                )
+
+            val editor = sharedPref.edit()
+
+            editor.clear()
+
+            editor.apply()
+
+            val intent = Intent(
+                this,
+                Login::class.java
+            )
+
+            startActivity(intent)
+
+            finish()
         }
 
     }
